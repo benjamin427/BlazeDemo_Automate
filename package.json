@@ -1,0 +1,32 @@
+{
+  "name": "automate_blazedemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open:chrome": "cypress open --e2e --browser chrome",
+    "cypress:open:firefox": "cypress open --e2e --browser firefox",
+    "cypress:open:edge": "cypress open --e2e --browser edge",
+    "cypress:run:chrome": "cypress run --spec=cypress/features/* --e2e --browser chrome",
+    "cypress:run:firefox": "cypress run --spec=cypress/features/* --e2e --browser firefox",
+    "cypress:run:edge": "cypress run --spec=cypress/features/* --e2e --browser edge"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjamin427/BlazeDemo_Automate.git"
+  },
+  "author": "Benjamin Saint Elien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjamin427/BlazeDemo_Automate/issues"
+  },
+  "homepage": "https://github.com/benjamin427/BlazeDemo_Automate#readme",
+  "description": "",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.1.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.2",
+    "automate_blazedemo": "file:",
+    "chai": "^5.1.1",
+    "cypress": "^13.13.2",
+    "mocha": "^10.7.0"
+  }
+}
